@@ -86,14 +86,11 @@ export class GRPCConnector {
     }
     publish(service = () => {}, serviceInfo = new Object()) {
         this.service = service 
-        const {host, port} = serviceInfo
+        const {host = this.connectorOptions.host, port = this.connectorOptions.port} = serviceInfo
         this.initGRPCServer(host, port) 
         const credentials =  this.createGRPCServerCredentials()
         const endpoint = this.getGRPCEndpoint()
         this.bindGRPCServer(endpoint, credentials)
-    }
-    getGRPCCredentrialsObject() {
-
     } 
     setupGRPCCredentials(grpcCredentials) { 
         const {useSSL, SSLOptions: {rootCert, privateKey, certChain}} = this.connectorOptions 

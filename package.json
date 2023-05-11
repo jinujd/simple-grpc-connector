@@ -49,7 +49,7 @@
   "bugs": {
     "url": "https://github.com/jinujd/simple-grpc-connector/issues"
   },
-  "homepage": "https://github.com/jinujd/simple-grpc-connector#readme",
+  "homepage": "https://github.com/jinujd/simple-grpc-connector/blob/main/docs/README.md",
   "dependencies": {
     "@grpc/grpc-js": "^1.8.14"
   }
