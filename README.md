@@ -1,5 +1,7 @@
 # simple-grpc-connector
 Simple gRPC Connector is a JavaScript library that provides an easy-to-use interface for integrating gRPC functionality into your applications. It simplifies the process of creating gRPC clients and servers, making it effortless to publish functions as gRPC services and invoke them over gRPC.
+The Simple gRPC Connector library leverages the powerful capabilities of the [@grpc/grpc-js](https://www.npmjs.com/package/@grpc/grpc-js) module, which is a modern, pure JavaScript gRPC implementation. By utilizing [@grpc/grpc-js](https://www.npmjs.com/package/@grpc/grpc-js), the library ensures compatibility with the latest versions of Node.js and offers improved performance and reliability for your gRPC-based applications.
+
 ## Features
 * Easy integration with existing Node.js applications
 * Publish any function as a gRPC service
@@ -110,6 +112,31 @@ connector.call('', [])
   })
 ```
 ## Other features
+### gRPC services over SSL
+The Simple gRPC Connector library provides seamless support for SSL/TLS encryption, enabling secure communication between gRPC services and clients.  
+
+The following example demonstrates how you can configure and use SSL options with the Simple gRPC Connector to establish secure connections between your gRPC services and clients.
+
+```javascript
+import { GRPCConnector, GRPCConnectorOptions } from 'simple-grpc-connector';
+// Create SSL options
+const sslOptions = {
+  host: 'localhost', 
+  port: 50051, 
+  useSSL: true,
+  SSLOptions: {
+    rootCert: '/path/to/rootCert.pem',
+    privateKey: '/path/to/privateKey.pem',
+    certChain: '/path/to/certChain.pem'
+  }
+}; 
+// Create connector options with SSL options
+const connectorOptions = new GRPCConnectorOptions({ ...sslOptions });
+```
+In the above example, SSL options are provided as part of the GRPCConnectorOptions when initializing the connector. The SSL options include the paths to the root certificate (rootCert.pem), private key (privateKey.pem), and certificate chain (certChain.pem). By setting useSSL to true, the connector will use SSL/TLS for secure communication.
+
+Make sure to replace the file paths (/path/to/rootCert.pem, /path/to/privateKey.pem, /path/to/certChain.pem) with the actual paths to your SSL/TLS files.
+
 ### Asynchronous Function Support
 The Simple gRPC Connector library fully supports the use of asynchronous functions, allowing you to leverage the power of asynchronous programming in your gRPC service implementation. This means you can define and publish asynchronous functions as gRPC service methods, enabling efficient and non-blocking communication with remote clients.
 
