@@ -125,3 +125,13 @@ For detailed usage instructions, API reference, and examples, please refer to th
 Contributions are welcome! Please read the **[Contributing Guidelines](https://github.com/jinujd/simple-grpc-connector/blob/main/docs/CONTRIBUTING.md)** for more information
 ## License
 This project is licensed under the **[MIT License](https://opensource.org/license/mit/).
+
+### Unit Tests (Work in Progress) 
+We are actively working on adding comprehensive unit tests to ensure the reliability and stability of the Simple gRPC Connector library. Unit tests help us identify and fix any issues or bugs, as well as ensure that the library functions as expected.
+
+At the moment, the unit tests are still in progress. We are dedicated to delivering a thoroughly tested library to provide you with a seamless experience. We appreciate your patience and understanding as we continue to work on this aspect.
+
+Once the unit tests are completed, you will be able to run them to verify the functionality of the library in your own environment. Stay tuned for updates on the availability of unit tests.
+
+In the meantime, if you encounter any issues or have any questions, please don't hesitate to reach out to us. We are here to assist you and address any concerns you may have.
+ 
