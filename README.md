@@ -124,7 +124,7 @@ Please note that the Simple gRPC Connector has certain limitations when it comes
 
 If you require more advanced functionality or need to publish complex data types, you may need to consider alternative approaches or libraries that support such use cases.
 
-### Unit Tests (Work in Progress) 
+## Unit Tests (Work in Progress) 
 We are actively working on adding comprehensive unit tests to ensure the reliability and stability of the Simple gRPC Connector library. Unit tests help us identify and fix any issues or bugs, as well as ensure that the library functions as expected.
 
 At the moment, the unit tests are still in progress. We are dedicated to delivering a thoroughly tested library to provide you with a seamless experience. We appreciate your patience and understanding as we continue to work on this aspect.
