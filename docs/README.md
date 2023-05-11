@@ -109,6 +109,16 @@ connector.call('', [])
     console.error('Error:', error)
   })
 ```
+## Other features
+### Asynchronous Function Support
+The Simple gRPC Connector library fully supports the use of asynchronous functions, allowing you to leverage the power of asynchronous programming in your gRPC service implementation. This means you can define and publish asynchronous functions as gRPC service methods, enabling efficient and non-blocking communication with remote clients.
+
+By utilizing async functions, you can handle time-consuming or I/O-bound operations without blocking the execution flow, resulting in better performance and responsiveness. The library seamlessly integrates with async/await syntax and supports the use of Promises, enabling you to write clean and concise asynchronous code.
+
+Whether you need to perform complex computations, access databases, or make API calls, you can leverage the asynchronous capabilities of the Simple gRPC Connector to build efficient and scalable gRPC services.
+
+With async function support, you can embrace modern JavaScript's asynchronous programming paradigm and unlock the full potential of your gRPC service implementation.
+
 ## Limitations
 Please note that the Simple gRPC Connector has certain limitations when it comes to publishing complex data types such as functions or classes. Currently, the library only supports publishing plain JavaScript objects as gRPC services. Complex data types like functions, classes, or instances cannot be directly published using the connector.
 
