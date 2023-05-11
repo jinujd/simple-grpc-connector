@@ -1,0 +1,56 @@
+{
+  "name": "simple-grpc-connector",
+  "version": "1.0.0",
+  "description": "Simple gRPC Connector is a JavaScript library that provides an easy-to-use interface for integrating gRPC functionality into your applications. It simplifies the process of creating gRPC clients and servers, making it effortless to publish functions as gRPC services and invoke them over gRPC.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinujd/simple-grpc-connector.git"
+  },
+  "keywords": [
+    "grpc",
+    "gRPC",
+    "grpc-client",
+    "grpc-server",
+    "rpc",
+    "connector",
+    "integration",
+    "service",
+    "communication",
+    "remote-calls",
+    "function-calls",
+    "middleware",
+    "networking",
+    "protocol",
+    "API",
+    "client-server",
+    "Node.js",
+    "library",
+    "lightweight",
+    "scalable",
+    "distributed-systems",
+    "microservices",
+    "service-oriented-architecture",
+    "simple-grpc-connector",
+    "simple-grpc",
+    "grpc-connector",
+    "nmicro"
+  ],
+  "author": "Jinu Joseph Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinujd/simple-grpc-connector/issues"
+  },
+  "homepage": "https://github.com/jinujd/simple-grpc-connector#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14"
+  }
+}

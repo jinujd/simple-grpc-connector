@@ -1,0 +1,14 @@
+syntax = "proto3";
+import "google/protobuf/any.proto"; 
+import "google/protobuf/struct.proto";
+message Request {
+  string functionName = 1; 
+  string parameters = 2;
+}
+message Response { 
+  string result = 2;
+}
+service Service {
+  rpc CallFunction(Request) returns (Response);
+}
+
