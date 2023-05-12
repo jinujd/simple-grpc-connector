@@ -34,7 +34,7 @@ The following behaviors are considered unacceptable and will not be tolerated:
 
 ## Reporting Incidents
 
-If you witness or experience any behavior that violates this code of conduct, please promptly report the incident to the project maintainers at [jinujosephdaniel@gmail.com](mailto:jinujosephdaniel@gmail.com?subject=[Incident%20report%20for%20simple%20grpc%20connector]). All reports will be kept confidential, and appropriate actions will be taken in response to the reported incident.
+If you witness or experience any behavior that violates this code of conduct, please promptly report the incident to the project maintainers at [jinujosephdaniel@gmail.com](mailto:jinujosephdaniel@gmail.com?subject=Incident%20report%20for%20simple%20grpc%20connector). All reports will be kept confidential, and appropriate actions will be taken in response to the reported incident.
 
 ## Enforcement
 
