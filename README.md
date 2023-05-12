@@ -10,7 +10,7 @@ The Simple gRPC Connector library leverages the powerful capabilities of the [@g
 * Support for SSL/TLS encryption (optional)
 * Lightweight and minimalistic design
 ## Getting Started
-### Example 1: Publishg a service and calling a function defined in the service
+### Example 1: Publishing a service and calling a function defined in the service
 #### Publishing the service over gRPC
 ```javascript
 import {GRPCConnector} from "simple-grpc-connector" 
@@ -163,7 +163,7 @@ In the meantime, if you encounter any issues or have any questions, please don't
 ## Empower Your Applications with Simple gRPC Connectivity
 That's it! With the Simple gRPC Connector, you can easily publish objects as gRPC services and access them remotely from gRPC clients.
 
-Feel free to modify and extend this example to suit your specific use case. Refer to the library documentation for more details on advanced usage and additional features provided by the Simple gRPC Connector.
+Feel free to modify and extend the examples to suit your specific use case. Refer to the library documentation for more details on advanced usage and additional features provided by the Simple gRPC Connector.
 
 ## Documentation
 For detailed usage instructions, API reference, and examples, please refer to the **[Documentation](https://github.com/jinujd/simple-grpc-connector/blob/main/docs/README.md)**
